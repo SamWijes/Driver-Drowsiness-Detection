@@ -1,0 +1,24 @@
+##image Files##
+images/
+images2/
+saved_model/
+
+##
+CNN_7_Layers.h5
+
+#dlibs predictor
+shape_predictor_68_face_landmarks.dat
+
+
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.idea/
+.vscode/
+*.log
+*.sqlite3
+.DS_Store
