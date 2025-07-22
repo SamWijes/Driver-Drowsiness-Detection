@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing import image
 
 
 # Load the trained model
-model = load_model('C:/Users/samit/Documents/CODE/IndProjectCode/Ver4/CNN_7_Layers.h5')
+model = load_model('./CNN_7_Layers.h5')
 
 
 # Initialize the webcam

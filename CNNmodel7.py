@@ -25,7 +25,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.models import load_model
 
 # 
-data_dir = 'C:/Users/samit/Documents/CODE/IndProjectCode/Ver4/images'
+data_dir = './images'
 
 datagen = ImageDataGenerator(validation_split=0.3, preprocessing_function=preprocess_input)
 
@@ -97,7 +97,7 @@ steps_per_epoch_testing = len(test_generator)
 
 CNNmodel_7.compile(optimizer='adam', loss="binary_crossentropy", metrics=['accuracy'])
 
-filepath = 'C:/Users/samit/Documents/CODE/IndProjectCode/Ver4/cp.keras'
+filepath = './cp.keras'
 
 checkpoint = ModelCheckpoint(filepath, 
                              monitor='val_accuracy',

@@ -11,7 +11,7 @@ from keras.applications.resnet50 import preprocess_input
 from tensorflow.keras.models import load_model
 
 # Set up the directory for your data
-data_dir = 'C:/Users/samit/Documents/CODE/IndProjectCode/Ver4/images2'
+data_dir = './images2'
 
 def preprocessing(img):
     return img / 255.0
@@ -81,7 +81,7 @@ CNNmodel.summary()
 CNNmodel.compile(optimizer='adam', loss="binary_crossentropy", metrics=['accuracy'])
 
 # Save the best model
-filepath = 'C:/Users/samit/Documents/CODE/IndProjectCode/Ver5/cp.keras'
+filepath = 'cp.keras'
 checkpoint = ModelCheckpoint(filepath, 
                              monitor='val_accuracy',
                              save_best_only=True,
