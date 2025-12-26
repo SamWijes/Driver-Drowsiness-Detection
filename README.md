@@ -5,10 +5,15 @@ This project detects eye state / drowsiness by isolating the eye region using **
 
 ---
 ## Demo
-#### [Watch this video on YouTube](https://www.youtube.com/watch?v=7ZJCvTy1tRc) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Watch this video on YouTube](https://www.youtube.com/watch?v=7ZJCvTy1tRc)
-Model Traing Accuracy and Validation  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Result Charts Training & Validation Loss
+#### [Watch this video on YouTube](https://www.youtube.com/watch?v=7ZJCvTy1tRc) 
+Model Traing Accuracy and Validation  
+[![Driver Drowsiness Detection CNN](https://img.youtube.com/vi/7ZJCvTy1tRc/0.jpg)](https://www.youtube.com/watch?v=7ZJCvTy1tRc) 
 
-[![Driver Drowsiness Detection CNN](https://img.youtube.com/vi/7ZJCvTy1tRc/0.jpg)](https://www.youtube.com/watch?v=7ZJCvTy1tRc) [![Driver Drowsiness Detection CNN Charts](https://img.youtube.com/vi/pvvreROKF90/0.jpg)](https://www.youtube.com/watch?v=pvvreROKF90) 
+### [Watch this video on YouTube](https://www.youtube.com/watch?v=7ZJCvTy1tRc)
+
+Result Charts Training & Validation Loss
+
+[![Driver Drowsiness Detection CNN Charts](https://img.youtube.com/vi/pvvreROKF90/0.jpg)](https://www.youtube.com/watch?v=pvvreROKF90) 
 <img width="676" height="269" alt="image9" src="https://github.com/user-attachments/assets/0f7d9eb8-d831-47b2-9aac-36dc708c940f" />
 <img width="576" height="280" alt="image19" src="https://github.com/user-attachments/assets/24544e6a-8013-4749-8974-ab5b794675ea" />
 
@@ -107,6 +112,7 @@ TensorFlow/Keras + OpenCV community
 ## 📜 License
 
 MIT License
+
 
 
 
