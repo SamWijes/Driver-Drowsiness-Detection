@@ -53,10 +53,10 @@ Run training:
 python train_model.py
 
 Training Notes
--Uses ImageDataGenerator(validation_split=0.2)
--Input size: 128×128 grayscale
->Use 64*64 if you have a lower end processor training time can take upto 45mins
--Output: binary classification with sigmoid
+- Uses ImageDataGenerator(validation_split=0.2)
+- Input size: 128×128 grayscale
+> Use 64*64 if you have a lower end processor training time can take upto 45mins
+- Output: binary classification with sigmoid
 --
 
 Saves:
@@ -66,11 +66,11 @@ training history JSON: training_history_3.json
 >Save important data into a json for analyzys and presentation
 
 ## 🎥 Real-Time Drowsiness Detection (Webcam)
--Requirements
--Trained model file (example):
--/saved_model/CNNModel_128.h5
--Dlib landmarks file:
--Ver4/shape_predictor_68_face_landmarks.dat
+- Requirements
+- Trained model file (example):
+- /saved_model/CNNModel_128.h5
+- Dlib landmarks file:
+- Ver4/shape_predictor_68_face_landmarks.dat
 
 ## Run detection
 ```
@@ -98,5 +98,6 @@ TensorFlow/Keras + OpenCV community
 ## 📜 License
 
 MIT License
+
 
 
