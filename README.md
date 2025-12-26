@@ -9,7 +9,7 @@ This project detects eye state / drowsiness by isolating the eye region using **
 Model Traing Accuracy and Validation  
 [![Driver Drowsiness Detection CNN](https://img.youtube.com/vi/7ZJCvTy1tRc/0.jpg)](https://www.youtube.com/watch?v=7ZJCvTy1tRc) 
 
-### [Watch this video on YouTube](https://www.youtube.com/watch?v=7ZJCvTy1tRc)
+#### [Watch this video on YouTube](https://www.youtube.com/watch?v=7ZJCvTy1tRc)
 
 Result Charts Training & Validation Loss
 
@@ -112,6 +112,7 @@ TensorFlow/Keras + OpenCV community
 ## 📜 License
 
 MIT License
+
 
 
 
