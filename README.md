@@ -14,7 +14,13 @@ Model Traing Accuracy and Validation
 Result Charts Training & Validation Loss
 
 [![Driver Drowsiness Detection CNN Charts](https://img.youtube.com/vi/pvvreROKF90/0.jpg)](https://www.youtube.com/watch?v=pvvreROKF90) 
+#### Issues arise Under Lowlight using Haar Cascade classifier
 <img width="676" height="269" alt="image9" src="https://github.com/user-attachments/assets/0f7d9eb8-d831-47b2-9aac-36dc708c940f" />
+
+#### Dlibs landmark predictor performed significantly better under medium/low-light
+<img width="676" height="269" alt="image" src="https://github.com/user-attachments/assets/c717f23c-125e-48a7-bc1c-40c46116e00c" />
+
+
 <img width="576" height="280" alt="image19" src="https://github.com/user-attachments/assets/24544e6a-8013-4749-8974-ab5b794675ea" />
 
 
@@ -112,6 +118,7 @@ TensorFlow/Keras + OpenCV community
 ## 📜 License
 
 MIT License
+
 
 
 
