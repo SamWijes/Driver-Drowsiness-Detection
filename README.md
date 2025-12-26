@@ -4,6 +4,14 @@ A **real-time drowsiness detection system** built using a **CNN-based approach**
 This project detects eye state / drowsiness by isolating the eye region using **Dlib facial landmarks** (more reliable in low-light compared to Haar cascades) and running inference using a trained **7-layer CNN model** trained on the **MRL Eye Dataset**.
 
 ---
+## Demo
+#### [Watch this video on YouTube](https://www.youtube.com/watch?v=7ZJCvTy1tRc) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Watch this video on YouTube](https://www.youtube.com/watch?v=7ZJCvTy1tRc)
+Model Traing Accuracy and Validation  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; Result Charts Training & Validation Loss
+
+[![Driver Drowsiness Detection CNN](https://img.youtube.com/vi/7ZJCvTy1tRc/0.jpg)](https://www.youtube.com/watch?v=7ZJCvTy1tRc) [![Driver Drowsiness Detection CNN Charts](https://img.youtube.com/vi/pvvreROKF90/0.jpg)](https://www.youtube.com/watch?v=pvvreROKF90) 
+<img width="676" height="269" alt="image9" src="https://github.com/user-attachments/assets/0f7d9eb8-d831-47b2-9aac-36dc708c940f" />
+<img width="576" height="280" alt="image19" src="https://github.com/user-attachments/assets/24544e6a-8013-4749-8974-ab5b794675ea" />
+
 
 ## Features
 - Real-time webcam detection (OpenCV)
@@ -27,6 +35,7 @@ This project detects eye state / drowsiness by isolating the eye region using **
 - **MRL Eye Dataset** (open/closed eye images)
 
 > Dataset is not included in this repository. Please download it separately available in kaggle or https://mrl.cs.vsb.cz//index.html
+<img width="1787" height="950" alt="image8" src="https://github.com/user-attachments/assets/c5b6a57e-cf59-44f2-82cf-e7c828e02813" />
 
 ---
 
@@ -98,6 +107,7 @@ TensorFlow/Keras + OpenCV community
 ## 📜 License
 
 MIT License
+
 
 
 
