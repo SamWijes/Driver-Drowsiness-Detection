@@ -42,7 +42,7 @@ Result Charts Training & Validation Loss
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **MRL Eye Dataset** (open/closed eye images)
 
 > Dataset is not included in this repository. Please download it separately available in kaggle or https://mrl.cs.vsb.cz//index.html
@@ -51,7 +51,7 @@ Result Charts Training & Validation Loss
 ---
 
 
-## ⚙️ Installation
+## Installation
 1. Clone repository
 ````
   git clone https://github.com/SamWijes/Driver-Drowsiness-Detection.git
@@ -63,7 +63,7 @@ pip install opencv-python numpy matplotlib tensorflow keras dlib
 
 Note (Windows): Installing dlib can be tricky. If you get errors, install cmake and Visual Studio Build Tools, then retry.
 
-## 🏋️ Training the CNN Model
+## Training the CNN Model
 
 Put dataset images in ./images/ with subfolders like:
 -images/open/
@@ -85,7 +85,7 @@ final model: CNNModel_128_3.h5
 training history JSON: training_history_3.json
 >Save important data into a json for analyzys and presentation
 
-## 🎥 Real-Time Drowsiness Detection (Webcam)
+## Real-Time Drowsiness Detection (Webcam)
 - Requirements
 - Trained model file (example):
 - /saved_model/CNNModel_128.h5
@@ -106,16 +106,16 @@ If the system predicts Drowsy continuously for ~1.5 seconds, it triggers a beep 
 Dlib landmark-based ROI extraction provides more stable eye detection compared to Haar cascades, especially under poor lighting conditions.
 Works best when the face is clearly visible and within a reasonable distance from the camera.
 
-## 🚀 Future Improvements
+## Future Improvements
 Eventhough the setup proved to function with accuracy close to 90% it had difficulty in detecting underlowlight conditions there fore the setup needs a IR/night vision cam to realize its full potential.
 Also rather than using a beep a interactive driver assist can be introduced to keep driver engaged via voice chat if continuous drowsyness detected
 
-## 🙌 Credits
+## Credits
 MRL Eye Dataset (for training images)
 Dlib (face landmarks)
 TensorFlow/Keras + OpenCV community
 
-## 📜 License
+## License
 
 MIT License
 
